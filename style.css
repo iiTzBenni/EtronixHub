@@ -1,0 +1,77 @@
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+  background-color: #000000;
+  color: white;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header1 {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 10px 25px; /* Adjust padding to create left and right margin */
+    height: 300px;
+    width: 80%;
+    margin: 20px auto 0; /* Adjust top margin to move the header down */
+    color: white;
+}
+
+.header-text {
+  text-align: center; /* Center text horizontally */
+}
+
+.rounded-button {
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin: 20px auto 0;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes rainbow {
+  0% { background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); }
+  100% { background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red); }
+}
+
+.rainbow-corner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+  animation: rainbow 10s infinite;
+  z-index: -1;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6e85d3, #5bc0de); /* Gradient from slight blue-purple to slightly light blue */
+  margin: 0;
+  padding: 0;
+}
